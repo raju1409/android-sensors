@@ -28,7 +28,7 @@ public class MessageServiceImpl implements MessageService {
             url = new URL(ws_str);
 
             //----------------------------------------------//
-            // Sttep 3: Open a URLConnection to the url.  //
+            // Step 3: Open a URLConnection to the url.  //
             //----------------------------------------------//
 
             URLConnection conn = url.openConnection();         // throws an IOException
